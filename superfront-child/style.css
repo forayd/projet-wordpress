@@ -1,0 +1,143 @@
+/* 
+Theme Name:		 storefront-child
+Description:	 Storefront-child is a child theme of Storefront
+Author:			 team wordpress 2
+Template:		 storefront
+Version:		 1.0.0
+Text Domain:	 storefront-child
+*/
+
+
+/*
+    Add your custom styles here
+*/
+
+/* MATTIA -> HEADER */
+
+.custom-logo {
+    height: 250px;
+}
+
+.storefront-breadcrumb {
+    display: none;
+}
+
+.woocommerce-breadcrumb {
+    display: none;
+}
+
+.main-navigation ul.menu, .main-navigation ul.nav-menu {
+    max-height: none;
+    overflow: visible;
+    margin-left: -10px;
+    -webkit-transition: none;
+    transition: none;
+    Font-size: 1.1em;
+    letter-spacing:2px;
+    font-weight:300;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.secondary-navigation .menu {
+    font-size: 0.7em;
+    letter-spacing: 2px;
+    font-family: 'Montserrat', sans-serif;
+    width: auto;
+    float: right;
+}
+
+/* ROCIO -> BOUTON SCROLL BACK UP */
+
+#btnTopPage {
+    height: 50px;
+    width: 50px;
+    background: #ada2ad;
+    color : #ffffff;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    right: 20px;
+    bottom: 20px;
+    cursor: pointer;
+}
+
+/* CHIHAB / AUDREY -> FOOTER */
+
+.bigFooterDivs{
+    display: inline-flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 0 30px;
+    align-items: flex-start;
+}
+
+.bigFooterDivs .footerDivs {
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding: 5px;
+}
+
+#footerPartOne ul li, #footerPartTwo ul li {
+    list-style: none;
+}
+
+#footerPartOne a,#footerPartTwo a,#footerPartFour a{
+    text-decoration: none;
+    color: #6d6d6d;
+    letter-spacing: 2px;
+}
+
+#footerPartTwo {
+    position: relative;
+    left: 100px;
+}
+
+#footerPartThree h5{
+    color: #6d6d6d;
+    font-size: medium;
+    padding: 0;
+    letter-spacing: 2px;
+}
+#footerPartThree p{
+    font-size: small;
+    color: #6d6d6d;
+    line-height: 0.5px;
+    letter-spacing: 2px;
+}
+
+#footerPartThree .smallP {
+    font-size:0.6em;
+}
+
+.site-info a {
+    display:none;
+}
+
+.site-info span {
+    display: none;
+}
+
+.site-info {
+    text-align: center;
+    letter-spacing:3px;
+}
+
+.elementor-social-icons-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    transform: scale(0.7);
+}
+.elementor-icon {
+    border-radius:30px;
+    background-color: #ada2ad;
+}
+
+.elementor-grid-item {
+    margin:0 10px 10px 10px;
+    flex: 0 0 auto;
+}

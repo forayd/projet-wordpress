@@ -1,0 +1,104 @@
+/* 
+Theme Name:		 Storefront-child
+Description:	 Storefront-child is a child theme of Storefront
+Author:			 team wordpress 2
+Template:		 Storefront
+Version:		 1.0.0
+Text Domain:	 Storefront-child
+*/
+
+
+/*
+    Add your custom styles here
+*/
+
+/* MATTIA -> HEADER */
+
+.custom-logo {
+    height: 125px;
+    max-width: 230px;
+    max-height: none;
+}
+
+.storefront-breadcrumb {
+    display: none;
+}
+
+.woocommerce-breadcrumb {
+    display: none;
+}
+
+.main-navigation ul.menu, .main-navigation ul.nav-menu {
+    max-height: none;
+    overflow: visible;
+    margin-left: -1em;
+    -webkit-transition: none;
+    transition: none;
+    Font-size: 20px;
+}
+
+.secondary-navigation .menu {
+    font-size: 17px;
+    width: auto;
+    float: right;
+}
+
+/* ROCIO -> BOUTON SCROLL BACK UP */
+
+#btnTopPage {
+    height: 50px;
+    width: 50px;
+    background: #ada2ad;
+    color : #ffffff;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    right: 20px;
+    bottom: 20px;
+    cursor: pointer;
+}
+
+/* CHIHAB / AUDREY -> FOOTER */
+
+.bigFooterDivs{
+    display: inline-flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 0 50px;
+    align-items: flex-start;
+}
+
+.bigFooterDivs .footerDivs {
+    flex-direction: row;
+    flex-wrap: wrap;
+    max-width: 30%;
+    padding: 10px;
+}
+
+#footerPartOne ul li, #footerPartTwo ul li {
+    list-style: none;
+}
+
+#footerPartOne a,#footerPartTwo a,#footerPartFour a{
+    text-decoration: none;
+    color: #6d6d6d;
+    letter-spacing: 2px;
+}
+
+#footerPartThree{
+    margin: 0 50px 20px 0;
+}
+#footerPartThree h5{
+    color: #ada2ad;
+    font-size: medium;
+    padding: 0;
+
+}
+#footerPartThree p{
+    font-size: small;
+    color: #ada2ad;
+    letter-spacing: 2px;
+}
